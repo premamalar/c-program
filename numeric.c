@@ -5,10 +5,10 @@ int num;
 printf("enter the numeric values:",num);
 if(num != 'a'||'z')
 {
-  printf("numeric");
+  printf("yes,it is numeric");
 }
 else
 {
-printf("not numeric");
+printf("no,it is not numeric");
 }
 }
