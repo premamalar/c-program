@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int a[5]={2,1,3},z;
-z=sort(a[5]);
+  int z;
+z=sort('2','1','3');
 printf("sorted array");
-scanf("%d",&a[5]);
+scanf("%d",&z);
 return 0;
 }
