@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main()
 {
-  int z;
-z=sort('2','1','3');
+  int a[5]={'2','1','3'};
+  int i;
+  for(i=0;i<=5;i++)
+  {
 printf("sorted array");
-scanf("%d",&z);
+scanf("%d",&a[i]);
 return 0;
 }
