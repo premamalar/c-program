@@ -1,12 +1,13 @@
-
-#include<stdio.h>
-void main()
-{
-char c[10],d[20],e[50];
-printf("enter the first string:");
-scanf("%c",&c[10]);
-printf("enter the second string:");
-scanf("%c",&d[20]);
-e[50]=(c[10],d[20]);
-printf("%C",e[50]);
+#include <stdio.h>
+#include<string.h>
+int main(void) {
+char a={"hello"};
+char b={"hai"};
+char c;
+c=(a,b);
+printf("string is %c",c);
+	// your code goes here
+return 0;
 }
+
+
