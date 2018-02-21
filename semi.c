@@ -1,5 +1,8 @@
 #include<stdio.h>
 void main()
 {
-if(printf("hello world"))
+  char c;
+  printf("enter values:");
+  scanf("%s",&c);
+if(printf("%s",c))
 }
