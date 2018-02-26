@@ -13,7 +13,7 @@ r=r*10;
 r=r+t%10;
 t=t/10;
 }
-if(c==r)
+if(c!=r)
 {
 printf("palindrome");
 }
