@@ -10,6 +10,6 @@ for(i=0;i<n;i++)
 {
 scanf("%d",n);
 }
-printf("addition%d",n);
+printf("addition%d",n++);
 getch();
 }
